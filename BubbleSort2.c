@@ -20,14 +20,16 @@ void BubbleSort(int arr[],int n)
 void printArray(int arr[],int size)
 {
     int i;
-    for (i=0;i<size;i++)
+    for (i= 0;i<size;i++)
     printf("%d\n",arr[i]);
-   
+    
+
+}
 //Driver code to test above functions
 int main()
 {
-    int arr[] = {66,60,55,46,58};
-    int  n = sizeof(arr)/sizeof(arr[0]);
+    int arr[]={66,60,55,46,58};
+    int n= sizeof(arr)/sizeof(arr[0]);
     BubbleSort(arr,n);
     printf("Sorted array : \n");
     printArray(arr,n);
