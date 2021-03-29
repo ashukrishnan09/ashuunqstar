@@ -21,7 +21,7 @@ void printArray(int arr[],int size)
 {
     int i;
     for (i=0;i<size;i++)
-    printf("%d\t",arr[i]);
+    printf("%d\n",arr[i]);
    
 //Driver code to test above functions
 int main()
